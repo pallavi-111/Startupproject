@@ -1,0 +1,40 @@
+body,
+html{
+	width:100%;
+	height:100%;
+	font-family: 'Girassol', cursive;
+    background: url(keyboard.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color:#0d7d20;
+}
+.buffer{
+	height:5rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+
+}
+.btn-xl{
+	padding:1rem 1rem;
+
+}
+.btn-info{
+	margin:auto;
+    background-color: green;
+	border-color:red;
+}
+.btn-info:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 2px;
+
+}
